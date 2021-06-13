@@ -1,0 +1,78 @@
+body {
+
+  font-family: Arial, Helvetica, sans-serif;         
+  margin: 0;
+}
+.bg{
+background-image: url(https://www.google.com/url?sa=i&url=http%3A%2F%2Fhdc-co.com%2F2021%2F01%2F26%2Fnetwork-security%2F&psig=AOvVaw0CIQ8h3P3jAziby8MAavCQ&ust=1623602059486000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCbx5jDkvECFQAAAAAdAAAAABAN);
+height:100%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 90px;
+}
+
+.navbar {
+ 
+  overflow: hidden;
+  background-color: #F0FFFF; 
+}
+
+.navbar a {
+ 
+  float: left;
+  font-size: 16px;
+  color: black;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #FFE4C4;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #FFE4C4;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: #2F4F4F;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
